@@ -36,6 +36,24 @@ div.hero {
     position: relative;
 }
 
-div > h1, article {
+/* div > h1, div > article {
     position: absolute;
+} */
+
+/* .hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+} */
+
+div > article > img {
+    width: 50%;
+    height: auto;
+    float: right;
 }
+
+article {
+    background-color: var(--accent2-color);
+    opacity: 0.4;
+}
+
