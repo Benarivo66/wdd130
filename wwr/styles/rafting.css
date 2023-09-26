@@ -19,41 +19,49 @@ body {
     padding: 20px;
 }
 
-h1, h2 {
+ h1, h2 {
     font-family: var(--heading-font);
-    color: var(--primary-color);
+    color: var(--accent2-color);
 }
 
 p {
-    padding: 25px;
+    padding: 15px;
 }
 
 footer a {
     text-decoration: none;
 }
 
-div.hero {
-    position: relative;
-}
-
-/* div > h1, div > article {
-    position: absolute;
-} */
-
-/* .hero img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
-} */
+}
 
-div > article > img {
+.hero {
+    position: relative;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.hero article {
+    position: absolute;
+    top: 30%;
     width: 50%;
     height: auto;
+    left: 20%;
+}
+
+.hero article img {
     float: right;
 }
 
 article {
     background-color: var(--accent2-color);
-    opacity: 0.4;
+    opacity: 0.8;
 }
-
+ 
