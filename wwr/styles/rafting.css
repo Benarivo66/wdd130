@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+:root {
+    --primary-color: #2E2C2F;
+    --secondary-color: #729B79;
+    --accent1-color: #475B63;
+    --accent2-color:  #BACDB0;;
+
+    --heading-font: 'Merriweather', serif;
+    --paragraph-font: 'Raleway', sans-serif;
+
+    --nav-background-color: #BACDB0;
+    --nav-link-color: #729B79;
+    --nav-hover-link-color: #475B63;
+    --nav-hover-background-color: #2E2C2F;
+}
+body {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+h1, h2 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p {
+    padding: 25px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+div.hero {
+    position: relative;
+}
+
+div > h1, article {
+    position: absolute;
+}
