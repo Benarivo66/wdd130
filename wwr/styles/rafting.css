@@ -66,3 +66,60 @@ article {
     opacity: 0.8;
 }
  
+header {
+    background-color: var(--accent2-color); 
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+header nav a {
+    border-width: 1px 1px 1px 0; 
+    border-color: #000; 
+    grid-gap: 5px;
+    padding: 5px;
+    text-decoration: none;
+    background-color: white;
+    font: var(--paragraph-font);
+    font-size: 20px
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header img {
+    opacity: 0.4;
+    width: 30%;
+    height: auto;
+}
+    
+.history img {
+    width: 150px;
+    height: auto;
+}
+
+.history {
+    display: flex;
+    flex-direction: column;
+}
+
+.history div {
+    display: flex;
+}
+
+.adventure {
+    display: flex;
+    flex-direction: column;
+}
+
+.adventure div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+}
