@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Form</title>
+    <link rel="stylesheet" href="styles/quiz.css" />
+  </head>
+  <body>
+    <header><h1>Basic HTML and CSS Quiz</h1></header>
+    <main>
+      <form>
+        <fieldset>
+          <div class="questions q1">
+            <label for="q1">Fill in the blank:</label>
+            <input
+              type="text"
+              id="q1"
+              name="q1"
+              value="HTML is a ------ language."
+            />
+          </div>
+
+          <div class="questions q2">
+            <label for="q2"
+              >What is the difference between HTML3 and HTML5?</label
+            >
+            <textarea name="q2" id="q2" cols="15" rows="5"></textarea>
+          </div>
+
+          <div class="questions q3">
+            <label for="q3"
+              >Which of the following is a valid CSS property?</label
+            >
+            <select name="q3" id="q3">
+              <option value="" selected disabled>Choose One ...</option>
+              <option value="opium">opium</option>
+              <option value="opaque">opaque</option>
+              <option value="opacity">opacity</option>
+              <option value="opinion">opinion</option>
+            </select>
+          </div>
+
+          <div class="questions q4">
+            <label for="q4">Which opacity value corresponds to fully opaque in css?</label>
+            <input type="number" id="q4" name="q4" step="0.1"/>
+          </div>
+        </fieldset>
+        <button type="submit">Submit Quiz</button>
+      </form>
+    </main>
+    <footer>
+        ©2024 Anthony Izekor | Quiz Form 
+    </footer>
+  </body>
+</html>
