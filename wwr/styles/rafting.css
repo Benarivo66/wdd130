@@ -123,3 +123,96 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+
+footer div a img {
+    width: 5%;
+    height: auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+footer div, a {
+    padding-top: 2.1rem;
+}
+
+.info p {
+    font-size: 1.2rem;
+}
+
+.happy-staff {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.staff-img {
+    width: 500px;
+    height: auto;
+}
+
+.staff {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.staff-info {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.staff-info span {
+    margin-bottom: 0.5rem;
+}
+
+form {
+    width: 50%;
+    height: auto;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2)
+}
+
+fieldset div {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.message {
+    display: flex;
+}
+
+textarea {
+    margin-left: 0.5rem;
+}
+
+.purpose input, .purpose label {
+    margin-bottom: 0.5rem;
+}
+
+.name input, .email input {
+    width: 70%;
+}
+
+button {
+    margin: 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    background-color: var(--accent1-color);
+    width: 90%;
+}
+
+button:hover {
+    background-color: var(--accent2-color);
+}
