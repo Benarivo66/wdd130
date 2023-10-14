@@ -21,7 +21,7 @@ body {
 
  h1, h2 {
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--accent1-color);
 }
 
 p {
@@ -215,4 +215,43 @@ button {
 
 button:hover {
     background-color: var(--accent2-color);
+}
+
+.sections {
+    display: flex;
+}
+
+.sections section {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid var(--primary-color);
+    box-sizing: border-box;
+}
+
+.sections section div img, .sections section div p {
+    display: block;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+
+section div a {
+    font-size: 25px;
+}
+
+table {
+    width: 90%;
+    height: auto;
+    color: var(--primary-color);
+    background-color: var(--accent2-color);
+}
+
+.table {
+    margin-top: 7rem;
+}
+
+table tr th, table tr td {
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
 }
