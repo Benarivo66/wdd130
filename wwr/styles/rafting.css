@@ -215,6 +215,7 @@ button {
 
 button:hover {
     background-color: var(--accent2-color);
+    cursor: pointer;
 }
 
 .sections {
@@ -255,3 +256,40 @@ table tr th, table tr td {
     padding: 20px;
     text-align: center;
 }
+
+.welcome img {
+    width: 100%;
+    height: auto;
+}
+
+.newsletteroffering {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.offerings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    width: 50%;
+}
+
+.offerings div img {
+    width: 80%;
+    margin-top: 3rem;
+}
+
+.newsletter {
+    width: 50%;
+}
+
+.newsletter form div {
+    margin-bottom: 2rem;
+    margin-left: 2rem;
+}
+
+.newsletter #link {
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
