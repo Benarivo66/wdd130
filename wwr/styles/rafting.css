@@ -276,7 +276,7 @@ table tr th, table tr td {
 
 .offerings div img {
     width: 80%;
-    margin-top: 3rem;
+    margin-top: 2.5rem;
 }
 
 .newsletter {
@@ -289,7 +289,13 @@ table tr th, table tr td {
 }
 
 .newsletter #link {
-    margin-top: 2rem;
-    margin-left: 2rem;
+    margin-top: 12.8%;
+    margin-left: 5%;
+}
+
+#purpose {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
